@@ -1,0 +1,16 @@
+{
+  "name": "BisLite",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node ./node_modules/less/bin/lessc ./styles/style.less ./styles/style.css",
+    "start": "node ./node_modules/node-static/bin/cli.js"
+  },
+  "contributors": [
+    "Sergey Koternyak <sergeykoternyak@gmail.com>"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "less": "^2.5.3",
+    "node-static": "^0.7.7"
+  }
+}
